@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: appointment-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/appointment_db
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
